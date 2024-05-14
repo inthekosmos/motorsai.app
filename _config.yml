@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Find My Motorsai
+title: Find a Motorsai
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Find a Motorsai whenever you need it
@@ -27,8 +27,13 @@ url: "https://motorsai.app"
 twitter_username: jekyllrb
 github_username:  jekyll
 
+sass:
+  style: compressed
+  sourcemap: never
+  load_paths:
+    - _sass
+
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 
